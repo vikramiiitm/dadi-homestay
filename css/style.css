@@ -731,9 +731,12 @@ textarea.form-control {
   .sidebar-search .search-input:focus, .sidebar-search .search-input:active {
     border-color: #343a40; }
 
+    
+    
 .contact-section .contact-info p {
   font-family: "Playfair Display", times, serif;
-  font-size: 30px;
+  font-size: 24px;
+    padding:  12px;
   margin-bottom: 30px; }
   .contact-section .contact-info p .d-block {
     font-size: 14px;
@@ -1087,6 +1090,8 @@ textarea.form-control {
 
 .check-availabilty {
   margin-top: -170px;
+  margin-right: 5px;
+  margin-left: 5px;
   position: relative; }
   .check-availabilty .block-32 {
     background: #fff;
@@ -1198,8 +1203,9 @@ textarea.form-control {
 
 .img-absolute {
   position: absolute;
+  
   bottom: -100px;
-  right: 10px; }
+  right: 28px; }
   .img-absolute img {
     max-width: 250px;
     transform: rotate(12deg);
@@ -1207,9 +1213,10 @@ textarea.form-control {
     border: 15px solid #f2f4fb; }
   @media (max-width: 991.98px) {
     .img-absolute {
-      right: 0px; }
+      bottom: -80px;
+      right: 10px; }
       .img-absolute img {
-        max-width: 160px; } }
+        max-width: 190px; } }
 
 .custom-breadcrumbs {
   list-style: none;

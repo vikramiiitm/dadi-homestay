@@ -7,8 +7,12 @@
 }
 
 .hightlighticon img{
-    height: 90px;
+    height: 60px;
 }
+@media (min-width: 991.98px) {
+      .hightlighticon img{
+    height: 90px;
+} }
 
 .hightlighticon span{
     font: 24px;
@@ -20,8 +24,6 @@
     max-height: 60vh;
 
 }
-
-
 
 
 
