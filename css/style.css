@@ -191,6 +191,7 @@ textarea.form-control {
   height: 100vh;
   min-height: 700px;
   width: 100vw;
+  
   position: relative; }
   .site-hero .heading {
     font-family: "Playfair Display", times, serif;
