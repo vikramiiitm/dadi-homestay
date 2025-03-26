@@ -74,9 +74,43 @@
   </header>
   <!-- END head -->
 
-  <section class="site-hero overlay" style="background-image: url('images/hero_v1.jpeg')"
-    data-stellar-background-ratio="0.5">
-    <!-- <img src="images/hero1.jpg" class="site-hero overlay" alt="bgheroimg"> -->
+  <style>
+    .site-hero {
+      background-image: url('images/hero_v1.jpeg');
+      /* Default background for desktop */
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* Other desktop styles can go here */
+    }
+
+    /* Media query for mobile devices (adjust max-width as needed) */
+    @media (max-width: 768px) {
+      .site-hero {
+        background-image: url('images/fruit_potrait.png');
+        /* Background for mobile */
+      }
+    }
+  </style>
+
+  <style>
+    .site-hero {
+      background-image: url('images/hero_v1.jpeg');
+      /* Default background for desktop */
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* Other desktop styles can go here */
+    }
+
+    /* Media query for mobile devices (adjust max-width as needed) */
+    @media (max-width: 768px) {
+      .site-hero {
+        background-image: url('images/fuit.jpeg');
+        /* Background for mobile */
+      }
+    }
+  </style>
+
+  <section class="site-hero overlay" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row site-hero-inner justify-content-center align-items-center">
         <div class="col-md-10 text-center" data-aos="fade-up">
